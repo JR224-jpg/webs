@@ -1,0 +1,109 @@
+body {
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: white;
+}
+
+h4 {
+    background-color: #f7baff;
+    font-family: Georgia, serif; /* Keep the font-family consistent */
+}
+     
+nav {
+    background-color: blueviolet;
+}
+.header-title {
+
+    text-align: center;
+  
+  }
+  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.navbar-nav  { 
+    color: rgb(116, 31, 31); 
+}
+
+.navbar-nav a:visited { 
+    color: rgb(6, 6, 6); 
+}
+
+.navbar-nav a:hover { 
+    color: lightblue; 
+     /* Smooth transition on hover */
+}
+
+.navbar-nav a:active { 
+    color: rgb(123, 39, 201);
+     /* Smooth transition on active state */
+}
+
+.navbar-nav .active {
+    color: goldenrod;
+}
+
+footer {
+    background-color: blueviolet;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+}
+
+.pageTitle {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.YouTubeVideo {
+    background-color: #f7baff;
+    border: 0px;
+    vertical-align: top;
+}
+
+.VideoWidget{
+    background-color: #f7baff;
+
+}
+
+
+#toggleParagraph {
+    display: none;
+}
+
+#toggleButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#toggleButton:hover {
+    opacity: 0.8;
+}
+
+#toggleButton.active {
+    background-color: #2ecc71; /* Color when paragraph is visible */
+    color: #000;
+}
+
+#toggleButton.inactive {
+    background-color: #3498db; /* Default color when paragraph is hidden */
+    color: #fff;
+}
